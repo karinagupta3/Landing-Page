@@ -151,7 +151,7 @@
     <div class="container">
       <h1>Make Goals Happen, One Smart Step at a Time</h1>
       <p>An interactive calendar that transforms your goals into manageable wins using the SMART system.</p>
-      <button class="cta-button" onclick="location.href='#google-form'">Join the Beta</button>
+      <button class="cta-button" onclick="location.href='#email-form'">Join the Beta</button>
     </div>
   </header>
   
@@ -232,24 +232,18 @@
     </div>
   </section>
   
-  <!-- Google Form Integration Section -->
-  <section id="google-form" data-aos="fade-up" data-aos-duration="1000">
-    <div class="container">
-      <h2 class="section-title">Sign Up for Early Access</h2>
-      <p style="text-align: center;">Fill out the form below to get started!</p>
-      <!-- Google Form Embed (update the src with your provided link) -->
-      <iframe
-        src="https://docs.google.com/forms/d/e/1FAIpQLSdR_yYUyrpzXh1Uhkgfs0bYiq3CY4_SedWn8GFkhuG4ux5IIQ/viewform?usp=preview"
-        width="100%"
-        height="800"
-        frameborder="0"
-        marginheight="0"
-        marginwidth="0"
-      >
-        Loading…
-      </iframe>
-    </div>
-  </section>
+ <!-- Email Signup Form -->
+<section id="email-form" data-aos="fade-up" data-aos-duration="1000">
+  <div class="container">
+    <h2 class="section-title">Sign Up for Early Access</h2>
+    <p style="text-align: center;">Enter your email below and we’ll reach out!</p>
+    <form action="https://getform.io/f/bqokwynb" method="POST" class="cta-form" style="display: flex; justify-content: center; gap: 10px; flex-wrap: wrap; margin-top: 20px;">
+      <input type="email" name="email" placeholder="Enter your email" required style="padding: 10px; border: none; border-radius: 5px; width: 250px; font-size: 16px;" />
+      <button type="submit" class="cta-button">Join the Beta</button>
+    </form>
+  </div>
+</section>
+
   
   <!-- More Information Section (Filler) -->
   <section id="more-info" data-aos="fade-up" data-aos-duration="1000">
